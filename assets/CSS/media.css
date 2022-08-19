@@ -1,0 +1,67 @@
+@media (max-width:1300px) {
+    #search-box input {
+        width: 200px;
+    }
+    #banner-text{
+        font-size:2rem;
+    }
+    #humberger-menu{
+        display: none;
+    }
+
+}
+@media(max-width:1060px){
+    #container{
+justify-content: flex-start;
+       top:300px;
+       right:50px;
+       width: calc(100% - 50px);
+    }
+.product-ads{
+    font-size: 2rem;
+}
+#footer-links h3{
+    font-size:.8rem;
+}
+#footer-links li ul li a{
+    font-size:.9rem;
+}
+#footer-links{
+    column-gap: 10px;
+}
+#footer-text{
+    font-size:.9rem;
+}
+
+}
+
+@media (max-width:730px) {
+    #menu {
+        display: none;
+    }
+    #logo{
+        display: none;
+    }
+    header{
+        padding: 0px 0;
+    }
+    .humberger{
+        display: block;
+    }
+    .humberger #humberger{
+        cursor: pointer;
+    }
+#footer-links-text{
+    flex-direction: column;
+}
+#footer-text{
+    margin-bottom: 50px;
+
+}
+.socials{
+    top:100px;
+}
+footer{
+    height: 500px;
+}
+}
