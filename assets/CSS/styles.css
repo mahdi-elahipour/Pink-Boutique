@@ -139,6 +139,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     width: 80%;
+    max-width: 1000px;
     margin: auto;
 
 
@@ -240,7 +241,7 @@ header {
     width: 200px;
     height: fit-content;
     padding: 20px 10px;
-    background:white;
+    background: rgba(252, 249, 248, 0.9);
     border-radius:0 0 10px 10px;
     box-shadow: 0 1px 2px 1px rgba(231, 228, 228, 0.7);
 
@@ -311,7 +312,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 70px;
-    align-items: center;
+    /* align-items: center; */
 
 }
 
