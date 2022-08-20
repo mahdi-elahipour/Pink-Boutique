@@ -29,7 +29,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 7px 50px 0px 50px;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 
@@ -65,7 +65,7 @@ header {
     text-shadow: 0px 0px 1px rgb(71, 71, 71);
 }
 
-#search_logo {
+#menus {
     display: flex;
     align-items: center;
 }
@@ -75,7 +75,7 @@ header {
     align-items: center;
 }
 
-#search_logo img {
+#menus img {
     width: 85px;
     padding: 7px 0;
 
@@ -224,28 +224,32 @@ header {
     vertical-align: middle;
     cursor: pointer;
 }
-.humberger{
+
+.humberger {
     width: fit-content;
     display: none;
 }
-.humberger #humberger{
+
+.humberger #humberger {
     width: 50px;
 
 }
-#humberger-menu{
-     display: none; 
+
+#humberger-menu {
+    display: none;
     position: absolute;
     line-height: 2.5;
-    top:72px;
-    right:17px;
+    top: 65px;
+    right: 17px;
     width: 200px;
     height: fit-content;
     padding: 20px 10px;
     background: rgba(252, 249, 248, 0.9);
-    border-radius:0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
     box-shadow: 0 1px 2px 1px rgba(231, 228, 228, 0.7);
 
 }
+
 #search-box input {
     border: none;
     padding: 10px 30px 10px 10px;
@@ -302,7 +306,7 @@ header {
 #footer-links-text {
     padding: 25px 35px;
     width: 100%;
-    height: 50vh;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
 
@@ -322,7 +326,7 @@ header {
 
 #footer-links li a {
     font-size: 1rem;
-    line-height: 3.4;
+    line-height: 3;
 }
 
 #subscribe * {
@@ -456,6 +460,8 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
+    background-color: rgb(244, 200, 187);
+
 }
 
 .socials ul {
@@ -480,6 +486,6 @@ footer {
 #footer {
     display: flex;
     flex-direction: column;
-    gap:25px;
-    
+    gap: 25px;
+
 }
